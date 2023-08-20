@@ -1,0 +1,49 @@
+
+/* Class = . ; Class e por classe agrupamento de tags
+   ID = # ; ID eh unico
+*/
+
+body{
+    /* background-image: linear-gradient(to bottom, black,white);*/
+    background-color: aliceblue;
+}
+
+#p{
+    color: blue;
+}
+
+.subtitulos{
+    text-align: center;
+    background-color: beige;
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(69, 132, 186);
+    border: 1px solid black;
+    text-align: center;
+    margin: 3px;
+}
+div>p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    text-size-adjust: 2em;
+}
+div:hover{
+    background-color: yellow;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(69, 132, 186);
+}
+a:visited{
+    background-color: rgba(165, 42, 42, 0.411);
+}
